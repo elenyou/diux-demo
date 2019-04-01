@@ -119,11 +119,10 @@ body {
 }
 
 // work page
-
 #work-list {
   .item {
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     @include screen("md") {
       width: 80%;
     }

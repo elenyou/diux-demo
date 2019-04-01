@@ -21,7 +21,7 @@ nav {
     }
   }
   .nav {
-    padding-left: 1rem;
+    padding: 0.5rem 1rem;
     background-color: $color-teal;
     @include screen("md") {
       background-color: transparent;

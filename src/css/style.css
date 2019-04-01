@@ -100,7 +100,7 @@ body {
 
 #work-list .item {
   flex-direction: column;
-  width: 90%; }
+  width: 80%; }
   @media (min-width: 768px) {
     #work-list .item {
       width: 80%; } }
@@ -183,7 +183,7 @@ nav {
       nav .navbar-brand {
         padding: 0 4rem; } }
   nav .nav {
-    padding-left: 1rem;
+    padding: 0.5rem 1rem;
     background-color: #294E4D; }
     @media (min-width: 768px) {
       nav .nav {
@@ -388,7 +388,7 @@ form {
       margin: 0; } }
   form .form-group .input {
     height: 2.2rem;
-    width: 14rem;
+    width: 16rem;
     border: 1.5px solid rgba(255, 255, 255, 0.7);
     border-radius: 1.5rem;
     font-size: 0.8rem;
