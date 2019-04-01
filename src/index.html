@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700|Rubik:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Diux demo</title>
+</head>
+
+<body>
+    <header class="header-custom">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+            <a class="navbar-brand" href="/#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="home" class="container-fluid text-uppercase text-white
+            d-flex flex-column justify-content-center align-items-center" data-parallax="scroll"
+        data-image-src="images/hero-bg.png">
+        <div class="d-flex hero">
+            <div class="hero-image">
+                <img src="images/hero-mockup.png" alt="mockup">
+            </div>
+            <div class="hero-text d-flex flex-column justify-content-center">
+                <h5 class="letter-spacing-big">digital agency</h5>
+                <h1>design</h1>
+                <p>research</p>
+                <p>development</h4>
+            </div>
+        </div>
+        <a href="index.html/#about" class="more">
+            <button class="button">Learn more</button>
+        </a>
+    </div>
+
+    <div id="about" class="container-fluid  pb-5 pt-5
+          d-flex flex-column justify-content-center align-items-center" data-parallax="scroll"
+        data-image-src="images/waves.png">
+        <div class="text-center">
+            <h4 class="second-font font-weight-bold">Creating apps with us</h4>
+            <p>have never been easier</p>
+        </div>
+        <div class="about-block pt-5 d-flex">
+            <div class="block-image d-flex flex-column justify-content-center align-items-center">
+                <img src="images/mockup-one.png" alt="mockup">
+                <p class="second-font font-weight-bold">blazing fast</p>
+                <p>wireframing</p>
+            </div>
+            <div class="block-text pt-5">
+                <h5 class="text-uppercase letter-spacing">wireframing</h5>
+                <p>Wireframing, in the context of user experience design, is the act of creating user interface
+                    wireframes.</p><br>
+                <p>The first problem that wireframing can answer is “what are some ways our product can help our
+                    customers accomplish their goals?”</p><br>
+                <p>The second problem that wireframing addresses is “how do I know this solution will work?”</p>
+            </div>
+        </div>
+        <div class="about-block pt-5 d-flex ">
+            <div class="block-image d-flex flex-column justify-content-center align-items-center">
+                <img src="images/mockup-two.png" alt="mockup">
+                <p class="second-font font-weight-bold">easy</p>
+                <p>sketching</p>
+            </div>
+            <div class="block-text pt-5">
+                <h5 class="text-uppercase letter-spacing">sketching</h5>
+                <p>Next level of design is already here.We use Sketch and are very proud about it.</p><br>
+                <p>With sketch you don’t have to think about screen densities anymore. Just create an art board in the
+                    size of the view and Sketch does the rest.</p><br>
+                <p>With Sketch the designer and the developer don’t need to guess any margins and paddings between text
+                    fields anymore. Just copy and paste the margins and give it to the developer. </p>
+                <p>With Sketch every property is just easy to create and assign. No need to assign effects on layers.
+                </p>
+            </div>
+        </div>
+        <div class="about-block pt-5 d-flex">
+            <div class="block-image d-flex flex-column justify-content-center align-items-center">
+                <img src="images/mockup-three.png" alt="mockup">
+                <p class="second-font font-weight-bold">fabulous</p>
+                <p>prototyping</p>
+            </div>
+            <div class="block-text pt-5">
+                <h5 class="text-uppercase letter-spacing">prototyping</h5>
+                <p>When we’re designing for screens, whether it’s mobile or web interfaces, it might be useful to see
+                    your work in action. With Sketch’s Prototyping features it’s easy to create interactive workflows
+                    and preview our designs as your users will see them.</p><br>
+                <p>Once we have created a prototype we can preview it directly in Sketch, test it on iOS Sketch Mirror,
+                    and share it with clients or colleagues by uploading to Sketch Cloud.</p><br>
+            </div>
+        </div>
+    </div>
+
+    <div id="work" class="container-fluid pt-5 pb-5 text-white
+          d-flex flex-column justify-content-center align-items-center" data-parallax="scroll"
+        data-image-src="images/bg-work.png">
+        <div class="text-center pb-3">
+            <h4 class="letter-spacing text-uppercase">Case studies</h4>
+        </div>
+        <div class="work-block mb-2 d-flex align-items-center">
+            <div class="block-big d-flex flex-column justify-content-center align-items-center">
+                <a href="work.html">
+                    <div class="block-item d-flex flex-column justify-content-center align-items-center">
+                        <img class="block-item--image" src="/images/work-one.jpg" alt="work">
+                        <div class="block-item--name align-self-start">
+                            <h4 class="letter-spacing">Technical 10</h4>
+                            <h4 class="second-font font-weight-bold">Website</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="block-big__text font-weight-light pt-2">
+                    <p>At DIUX we care not only about how good you look on the web,but also how easy to use your
+                        products by your customers.</p>
+                </div>
+            </div>
+            <div class="block-small d-flex flex-column justify-content-center align-items-center">
+                <a href="work.html">
+                    <div class="block-item d-flex flex-column justify-content-center align-items-center">
+                        <img class="block-item--image" src="images/work-two.jpg" alt="work">
+                        <div class="block-item--name align-self-start">
+                            <h4 class="letter-spacing">Forest Nights</h4>
+                            <h4 class="second-font font-weight-bold">Travel App</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="work.html">
+                    <div class="block-item d-flex flex-column justify-content-center align-items-center">
+                        <img class="block-item--image" src="images/work-three.jpg" alt="work">
+                        <div class="block-item--name align-self-start">
+                            <h4 class="letter-spacing">Elizabeth Saunders</h2>
+                                <h4 class="second-font font-weight-bold">Photoset</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="work.html">
+            <button class="button">See more</button>
+        </a>
+    </div>
+
+
+    <footer class="text-uppercase d-flex flex-column justify-content-center align-items-center" data-parallax="scroll"
+        data-image-src="images/footer.png">
+        <form class="d-flex pb-4 align-items-center">
+            <div class="form-group">
+                <input type="email" class="input" id="email" placeholder="EMAIL">
+            </div>
+            <button href="#" type="submit" class="button">Subscribe</button>
+        </form>
+        <div class="footer-logo d-flex justify-content-center align-items-center">
+            <img src="images/logo.png" alt="logo">
+            <p class="p-4">© 2019 Lena</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "diux-demo",
+  "version": "1.0.0",
+  "description": "diux-demo",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "author": "Lena",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
